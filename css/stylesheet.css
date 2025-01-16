@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-color: #F1EBFF;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header p:hover {
+    color: #40D;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.buy {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.destination {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #F1EBFF;
+    max-width: 211px;
+    width: 100%;
+}
+
+.logo {
+    width: 24.01px;
+    height: 24.01px;
+    flex-shrink: 0;
+
+}
+
+.locationlogo {
+    display: flex;
+    width: 56px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #40D;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+main {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.City {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+span {
+    color: #323232;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.everything {
+    display: flex;
+
+}
+
+.will {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.have {
+    color: #5E6577;
+    text-align: right;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 570px;
+    width: 100%;
+}
+
+.link-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    border-left: 2px solid #000;
+    border-top: 2px solid #8CE900;
+    border-bottom: 2px solid #DD2590;
+    border-right: 2px solid #155EEF;
+    padding: 18px 24px;
+    height: 263px;
+    flex-wrap: wrap;
+}
+
+.Total {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #CCD3E0;
+    padding-bottom: 30px
+}
+
+.Display {
+    color: #40D;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.Snowdon {
+    max-width: 488px;
+    width: 100%;
+    color: #969696;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.yha {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.Located {
+    display: flex;
+    height: 272px;
+    gap: 16px;
+    padding: 16px 24px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+
+}
+
+.preserved {
+    color: #3B3B3B;
+    font-family: Inter;
+    font-size: 14px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.built {
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 24px;
+    max-width: 488px;
+    width: 100%;
+}
+
+.London {
+    display: flex;
+    height: 272px;
+    padding: 16px 24px;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+
+}
+
+.Hostel {
+    color: #07081A;
+    max-width: 488px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.courthouse {
+    color: #155EEF;
+    max-width: 488px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+footer div {
+    display: flex;
+    padding: 40px 200px 0 928px;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #F1EBFF;
+    margin-top: 193px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3xl, 24px);
+}
